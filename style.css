@@ -9,7 +9,7 @@
     margin-top: 50px;
     padding: 10px;
     /* box-shadow: 0 4px 8px 0; */
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
 }
 .mainbar{
     margin-bottom: 20px;
@@ -44,5 +44,7 @@ h1 , h3{
     font-weight: bold;
 }
 body{
-    background-color: rgb(127, 148, 150);
+    background-color: rgb(123, 140, 141);
 }
+    
+
