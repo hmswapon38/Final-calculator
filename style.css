@@ -2,9 +2,14 @@
     height: 360px;
     width: 280px;
     background-color: #e8e8e8;
+    background-image: linear-gradient(180deg, rgb(12, 41, 5), rgb(10, 62, 87));
+
+    background-image: linear-gradient(180deg, rgb(7, 63, 46), rgb(9, 96, 122));
     margin: 0 auto;
     margin-top: 50px;
     padding: 10px;
+    /* box-shadow: 0 4px 8px 0; */
+    box-shadow: 0 16px 32px 0 rgba(2, 38, 39, 0.2);
 }
 .mainbar{
     margin-bottom: 20px;
@@ -15,6 +20,8 @@
     font-size: 20px;
     cursor: pointer;
     width: 61px;
+    box-shadow: 0 16px 32px 0 rgba(2, 38, 39, 0.2);
+    
 }
 .line{
     margin-bottom: 10px;
@@ -27,6 +34,15 @@
 span{
     font-weight: bold;
     margin-left: 10px;
-    color: rgb(255, 0, 0);
+    color: rgb(238, 255, 0);
     font-size: 10px;
+}
+h1 , h3{
+    text-align: center;
+    color: rgb(253, 236, 0);
+    text-decoration: underline;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(127, 148, 150);
 }

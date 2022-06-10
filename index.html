@@ -31,6 +31,8 @@
 
 </head>
 <body>
+    <h1>Calculator</h1>
+    <h3>Calculate Natural Number</h3>
     <div class="calculator">
         <form action="" name="form">
             <input type="text" class="form-control mainbar" name="display" id="inp" placeholder="0">
@@ -76,8 +78,8 @@
                 </div>
 
                 <div class="line">
-                    <input type="button" name="btn" value="0" class="btn btn-primary"  onclick="insertNumber()">
-                    <input type="button" name="btn" value="." class="btn btn-primary"  onclick="insertNumber()">
+                    <input type="button" name="btn" value="0" class="btn btn-primary"  onclick="insertNumber(0)">
+                    <input type="button" name="btn" value="." class="btn btn-primary"  onclick="insertNumber('.')">
                     <input type="button" name="btn" value="=" class="btn btn-primary"  onclick="calculate()">
                     <input type="button" name="btn" value="+" class="btn btn-warning"  onclick="insertNumber('+')">
 
